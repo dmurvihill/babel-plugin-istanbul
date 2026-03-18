@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-istanbul",
+  "name": "@direct-democracy-solutions/babel-plugin-istanbul",
   "version": "8.0.2",
   "author": "Thai Pangsakulyanont @dtinth",
   "license": "BSD-3-Clause",
@@ -46,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/istanbuljs/babel-plugin-istanbul.git"
+    "url": "git+https://github.com/direct-democracy-solutions/babel-plugin-istanbul.git"
   },
   "keywords": [
     "istanbul",
@@ -66,9 +66,9 @@
     "instrument": false
   },
   "bugs": {
-    "url": "https://github.com/istanbuljs/babel-plugin-istanbul/issues"
+    "url": "https://github.com/direct-democracy-solutions/babel-plugin-istanbul/issues"
   },
-  "homepage": "https://github.com/istanbuljs/babel-plugin-istanbul#readme",
+  "homepage": "https://github.com/direct-democracy-solutions/babel-plugin-istanbul#readme",
   "engines": {
     "node": ">=18"
   }

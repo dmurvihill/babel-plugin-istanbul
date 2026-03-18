@@ -1,8 +1,14 @@
+name: release-please
+
 on:
    push:
      branches:
        - master
-name: release-please
+
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
@@ -21,6 +27,4 @@ jobs:
       - run: npm install
         if: ${{ steps.release.outputs.release_created }}
       - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
